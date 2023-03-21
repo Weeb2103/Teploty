@@ -57,8 +57,7 @@ else
         Console.WriteLine("Pro vracení zpět do menu stiskni Space");
         ConsoleKeyInfo keyInfo= Console.ReadKey();
         if (keyInfo.Key== ConsoleKey.Spacebar)
-        {
-            Console.Clear();
+        {      
             goto menu;
         }
     }
@@ -71,7 +70,6 @@ else
         ConsoleKeyInfo keyInfo = Console.ReadKey();
         if (keyInfo.Key == ConsoleKey.Spacebar)
         {
-           Console.Clear();
             goto menu;           
         }
     }
@@ -84,7 +82,6 @@ else
         ConsoleKeyInfo keyInfo = Console.ReadKey();
         if (keyInfo.Key == ConsoleKey.Spacebar)
         {
-         Console.Clear();
             goto menu;
         }
     }
